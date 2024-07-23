@@ -22,7 +22,6 @@ def start(message):
   bot.reply_to(message,
                '𝐼 𝑠𝑡𝑜𝑝𝑝𝑒𝑑 𝑡𝒉𝑒 𝑐𝑜𝑚𝑏𝑜 𝑓𝑜𝑟 𝑦𝑜𝑢, 𝑤𝑖𝑡𝒉 𝑦𝑜𝑢𝑟 𝑝𝑒𝑟𝑚𝑖𝑠𝑠𝑖𝑜𝑛. 𝑊𝑎𝑖𝑡 10𝑠')
 
-Aarav
 @bot.message_handler(commands=["start"])
 def start(message):
   bot.send_message(message.chat.id,
